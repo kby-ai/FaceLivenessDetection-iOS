@@ -86,7 +86,9 @@ let faceBoxes = FaceSDK.faceDetection(image)
 
 https://github.com/kby-ai/FaceLivenessDetection-iOS/blob/ff6722b7946797f0c9f2314f88eb43a96ac59f57/FaceLivenessDetection/CameraViewController.swift#L62-L78
 
-This function takes a single parameter, which is a UIImage object. The return value of the function is a list of FaceBox objects. Each FaceBox object contains the detected face rectangle, liveness score, and facial angles such as yaw, roll, and pitch.
+This function takes a single parameter, which is a UIImage object. The return value of the function is a list of FaceBox objects. 
+
+Each FaceBox object contains the detected face rectangle, liveness score, and facial angles such as yaw, roll, and pitch.
 
 # References
 
