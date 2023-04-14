@@ -47,7 +47,15 @@ Skype: live:.cid.66e2522354b1049b
 
 2. Add SDK framework to the project in xcode
 
+Project Navigator -> General -> Frameworks, Libraries, and Embedded Content
+
 ![image](https://user-images.githubusercontent.com/125717930/231925359-ef30b3c0-d2d9-4b32-ae57-80b42b021b91.png)
+
+3. Add the bridging header to your project settings
+
+Project Navigator -> Build Settings -> Swift Compiler - General
+
+![image](https://user-images.githubusercontent.com/125717930/231926873-6a510b63-209a-480f-8486-ec11b1962613.png)
 
 
 ### Initializing an SDK
