@@ -94,3 +94,4 @@ Each FaceBox object contains the detected face rectangle, liveness score, and fa
 
 - [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)
 - [Face Recognition - Android](https://github.com/kby-ai/FaceRecognition-Android)
+- [Face Recognition - iOS](https://github.com/kby-ai/FaceRecognition-iOS)
