@@ -7,7 +7,7 @@
 ## Introduction
 This demo showcases a 3D passive liveness detection technique for detecting spoofed faces. 
 
-In real-time, a single image captured from the Android camera computes a liveness score.
+In real-time, a single image captured from the iphone camera computes a liveness score.
 
 Additionally, the demo can also calculate the liveness score from gallery images and display the results.
 
