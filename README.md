@@ -11,6 +11,12 @@ With real-time computation of a liveness score from a single image captured by y
 
 In addition, our app can also calculate the liveness score from gallery images and display the results for even greater peace of mind. 
 
+## Download on the App Store
+
+<a href="https://apps.apple.com/us/app/face-liveness-detection/id6448392118" target="_blank">
+  <img alt="" src="https://user-images.githubusercontent.com/125717930/235276083-d20fe057-214d-497c-a431-4569bbeed2fe.png" height=80/>
+</a>
+
 ## Screenshots
 
 <p float="left">
