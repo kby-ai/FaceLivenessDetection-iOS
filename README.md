@@ -20,7 +20,12 @@ The demo project showcases real-time Face Liveness Detection technology.
   |         |         | Face Occlusion Detection |
   |         |         | Eye Closure Detection |
   |         |         | Age, Gender Estimation |
-  
+
+> - [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)
+> - [Face Recognition - Android(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Android)
+> - [Face Recognition - iOS(Standard SDK)](https://github.com/kby-ai/FaceRecognition-iOS)
+> - [Face Attribute - Android(Premimum SDK)](https://github.com/kby-ai/FaceAttribute-Android)
+
 ## Download on the App Store
 
 <a href="https://apps.apple.com/us/app/face-liveness-detection/id6448392118" target="_blank">
@@ -106,9 +111,3 @@ This function takes a single parameter, which is a UIImage object.
 The return value of the function is a list of FaceBox objects. 
 Each FaceBox object contains the detected face rectangle, liveness score, and facial angles such as yaw, roll, and pitch.
 
-# References
-
-- [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)
-- [Face Recognition - Android](https://github.com/kby-ai/FaceRecognition-Android)
-- [Face Recognition - iOS](https://github.com/kby-ai/FaceRecognition-iOS)
-- [Face Attribute - Android](https://github.com/kby-ai/FaceAttribute-Android)
