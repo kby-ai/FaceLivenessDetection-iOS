@@ -5,11 +5,7 @@
 # FaceLivenessDetection-iOS
 
 ## Introduction
-Our app utilizes an innovative 3D passive liveness detection technique to accurately detect spoofed faces. 
-
-With real-time computation of a liveness score from a single image captured by your iPhone camera, you can be confident that your sensitive information is always secure. 
-
-In addition, our app can also calculate the liveness score from gallery images and display the results for even greater peace of mind. 
+The demo project showcases real-time Face Liveness Detection technology.
 
 > The demo is integrated with KBY-AI's Basic Face SDK.
 
