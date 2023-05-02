@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="https://user-images.githubusercontent.com/125717930/225975240-24b9a8ad-8cc6-4d5f-9a91-1435951b0bd7.png" width="120" alt="Nest Logo" />
 </p>
 
@@ -11,6 +11,20 @@ With real-time computation of a liveness score from a single image captured by y
 
 In addition, our app can also calculate the liveness score from gallery images and display the results for even greater peace of mind. 
 
+> The demo is integrated with KBY-AI's Basic Face SDK.
+
+  | Basic      | Standard | Premimum |
+  |------------------|------------------|------------------|
+  | Face Detection        | Face Detection    | Face Detection |
+  | Face Liveness Detection        | Face Liveness Detection    | Face Liveness Detection |
+  | Pose Estimation        | Pose Estimation    | Pose Estimation |
+  |         | Face Recognition    | Face Recognition |
+  |         |         | 68 points Face Landmark Detection |
+  |         |         | Face Quality Calculation |
+  |         |         | Face Occlusion Detection |
+  |         |         | Eye Closure Detection |
+  |         |         | Age, Gender Estimation |
+  
 ## Download on the App Store
 
 <a href="https://apps.apple.com/us/app/face-liveness-detection/id6448392118" target="_blank">
@@ -101,3 +115,4 @@ Each FaceBox object contains the detected face rectangle, liveness score, and fa
 - [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)
 - [Face Recognition - Android](https://github.com/kby-ai/FaceRecognition-Android)
 - [Face Recognition - iOS](https://github.com/kby-ai/FaceRecognition-iOS)
+- [Face Attribute - Android](https://github.com/kby-ai/FaceAttribute-Android)
