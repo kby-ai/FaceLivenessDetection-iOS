@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE29C4EC29E84471008EDB5A /* UIImageFixedOrientationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29C4EB29E84470008EDB5A /* UIImageFixedOrientationExtension.swift */; };
+		CE0A0A312A43304E00EDDCE7 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0A0A302A43304E00EDDCE7 /* UIImageExtension.swift */; };
 		CE29C4EE29E8503F008EDB5A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29C4ED29E8503E008EDB5A /* AboutViewController.swift */; };
 		CE29C4F029E865D4008EDB5A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29C4EF29E865D4008EDB5A /* SettingsViewController.swift */; };
 		CEA38C1329E733A50030D4E5 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA38C1229E733A50030D4E5 /* FaceView.swift */; };
@@ -58,7 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE29C4EB29E84470008EDB5A /* UIImageFixedOrientationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageFixedOrientationExtension.swift; sourceTree = "<group>"; };
+		CE0A0A302A43304E00EDDCE7 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		CE29C4ED29E8503E008EDB5A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		CE29C4EF29E865D4008EDB5A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CEA38C1229E733A50030D4E5 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 				CEAE555229E6623200DE0DD9 /* SceneDelegate.swift */,
 				CEAE555429E6623200DE0DD9 /* ViewController.swift */,
 				CEA38C1E29E79F900030D4E5 /* CameraViewController.swift */,
-				CE29C4EB29E84470008EDB5A /* UIImageFixedOrientationExtension.swift */,
+				CE0A0A302A43304E00EDDCE7 /* UIImageExtension.swift */,
 				CE29C4EF29E865D4008EDB5A /* SettingsViewController.swift */,
 				CEA38C1229E733A50030D4E5 /* FaceView.swift */,
 				CEAE555629E6623200DE0DD9 /* Main.storyboard */,
@@ -305,11 +305,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAE555529E6623200DE0DD9 /* ViewController.swift in Sources */,
-				CE29C4EC29E84471008EDB5A /* UIImageFixedOrientationExtension.swift in Sources */,
 				CEAE555B29E6623200DE0DD9 /* FaceLivenessDetection.xcdatamodeld in Sources */,
 				CEAE555129E6623200DE0DD9 /* AppDelegate.swift in Sources */,
 				CEAE555329E6623200DE0DD9 /* SceneDelegate.swift in Sources */,
 				CEA38C1329E733A50030D4E5 /* FaceView.swift in Sources */,
+				CE0A0A312A43304E00EDDCE7 /* UIImageExtension.swift in Sources */,
 				CE29C4EE29E8503F008EDB5A /* AboutViewController.swift in Sources */,
 				CEA38C1F29E79F900030D4E5 /* CameraViewController.swift in Sources */,
 				CE29C4F029E865D4008EDB5A /* SettingsViewController.swift in Sources */,
@@ -488,8 +488,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JSUUF48N9C;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 6G7RACBX72;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -497,19 +497,20 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FaceLivenessDetection/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FaceLivenessDetection;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The application utilizes the camera for performing facial recognition.\n\n\n\n\nThe app utilizes the camera for performing facial recognition.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kbyai.facelivedemo11;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kbyai.facelive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -517,7 +518,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "FaceLivenessDetection-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -527,8 +528,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JSUUF48N9C;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 6G7RACBX72;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -536,19 +537,20 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FaceLivenessDetection/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FaceLivenessDetection;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The application utilizes the camera for performing facial recognition.\n\n\n\n\nThe app utilizes the camera for performing facial recognition.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kbyai.facelivedemo11;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kbyai.facelive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -556,7 +558,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "FaceLivenessDetection-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
