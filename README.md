@@ -61,7 +61,7 @@ The demo project showcases real-time Face Liveness Detection technology.
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/125717930/231923322-d675622c-972c-4a10-9a7a-e94607dbf5bb.png" width=300/>
-  <img src="https://user-images.githubusercontent.com/125717930/231923339-1cb1d76f-7757-4a18-a8c8-42880a1740a6.png" width=300/>
+  <img src="https://github.com/kby-ai/FaceLivenessDetection-iOS/assets/125717930/1c28d837-67be-4e6a-b408-01ae8d847fd0" width=300/>
 </p>
 
 <p float="left">
