@@ -62,18 +62,12 @@ This project uses kby-ai's liveness detection SDK. The SDK requires a license pe
 
 - The code below shows how to use the license: https://github.com/kby-ai/FaceLivenessDetection-iOS/blob/ff6722b7946797f0c9f2314f88eb43a96ac59f57/FaceLivenessDetection/ViewController.swift#L18-L27
 
-- To request a license, please contact us:
-```
-Email: contact@kby-ai.com
-
-Telegram: @kbyai
-
-WhatsApp: +19092802609
-
-Skype: live:.cid.66e2522354b1049b
-
-Facebook: https://www.facebook.com/KBYAI
-```
+- To request a license, please contact us:</br>
+🧙`Email:` contact@kby-ai.com</br>
+🧙`Telegram:` @kbyai</br>
+🧙`WhatsApp:` +19092802609</br>
+🧙`Skype:` live:.cid.66e2522354b1049b</br>
+🧙`Facebook:` https://www.facebook.com/KBYAI</br>
 
 ## About SDK
 
