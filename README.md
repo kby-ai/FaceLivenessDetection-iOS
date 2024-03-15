@@ -50,6 +50,11 @@ This repository showcases real-time face liveness detection technology on iOS de
   <img alt="" src="https://user-images.githubusercontent.com/125717930/235276083-d20fe057-214d-497c-a431-4569bbeed2fe.png" height=80/>
 </a>
 
+## Performance Video
+
+You can visit our YouTube video [here](https://www.youtube.com/watch?v=F7c5ZqtbIsA) to see how well our demo app works.</br></br>
+[![Face Recognition Android](https://img.youtube.com/vi/F7c5ZqtbIsA/0.jpg)](https://www.youtube.com/watch?v=F7c5ZqtbIsA)
+
 ## Screenshots
 
 <p float="left">
