@@ -103,7 +103,7 @@ This project uses kby-ai's liveness detection SDK. The SDK requires a license pe
 - Step One
 
 To begin, you need to activate the SDK using the license that you have received.
-```
+```swift
 FaceSDK.setActivation("...") 
 ```
 
@@ -112,7 +112,7 @@ If activation is successful, the return value will be SDK_SUCCESS. Otherwise, an
 - Step Two
 
 After activation, call the SDK's initialization function.
-```
+```swift
 FaceSDK.initSDK()
 ```
 If initialization is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
@@ -120,7 +120,7 @@ If initialization is successful, the return value will be SDK_SUCCESS. Otherwise
 ### Face Detection and Liveness Detection
 
 The FaceSDK offers a single function for detecting face and liveness detection, which can be used as follows:
-```
+```swift
 let faceBoxes = FaceSDK.faceDetection(image)
 ```
 
