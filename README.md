@@ -12,9 +12,9 @@
 # FaceLivenessDetection-iOS
 
 ## Overview
-This repository showcases real-time face liveness detection technology on iOS device.
+This repository showcases real-time `face liveness detection` technology on `iOS` device.
 
-> In this repository, we integrated KBY-AI's face liveness(face anti-spoofing) solution into iOS platform.
+> In this repository, we integrated `KBY-AI`'s face liveness(face anti-spoofing) solution into `iOS` platform.
 
   ### ◾FaceSDK(Mobile) Details
 
@@ -43,7 +43,7 @@ This repository showcases real-time face liveness detection technology on iOS de
   | 8        | [Face Attribute - iOS](https://github.com/kby-ai/FaceAttribute-iOS)        | Premium SDK |
   | 9        | [Face Attribute - Flutter](https://github.com/kby-ai/FaceAttribute-Flutter)        | Premium SDK |
 
-> To get Face SDK(server), please visit products [here](https://github.com/kby-ai/Product).<br/>
+> To get `Face SDK(server)`, please visit products [here](https://github.com/kby-ai/Product).<br/>
 
 ## Download on the App Store
 
@@ -70,7 +70,7 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=F7c5ZqtbI
 
 ## SDK License
 
-This project uses kby-ai's liveness detection SDK. The SDK requires a license per bundle ID.
+This project uses `KBY-AI`'s liveness detection SDK. The SDK requires a license per `bundle ID`.
 
 - The code below shows how to use the license: https://github.com/kby-ai/FaceLivenessDetection-iOS/blob/ff6722b7946797f0c9f2314f88eb43a96ac59f57/FaceLivenessDetection/ViewController.swift#L18-L27
 
@@ -84,9 +84,9 @@ This project uses kby-ai's liveness detection SDK. The SDK requires a license pe
 ## About SDK
 
 ### Set up
-1. Copy the SDK (facesdk.framework folder) to the root folder of your project.
+1. Copy the SDK (`facesdk.framework` folder) to the `root` folder in your project.
 
-2. Add SDK framework to the project in xcode
+2. Add `SDK framework` to the project in `Xcode`.
 
 > Project Navigator -> General -> Frameworks, Libraries, and Embedded Content
 
@@ -108,26 +108,26 @@ To begin, you need to activate the SDK using the license that you have received.
 FaceSDK.setActivation("...") 
 ```
 
-If activation is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
+If activation is successful, the return value will be `SDK_SUCCESS`. Otherwise, an error value will be returned.
 
 - Step Two
 
-After activation, call the SDK's initialization function.
+After activation, call the `SDK`'s initialization function.
 ```swift
 FaceSDK.initSDK()
 ```
-If initialization is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
+If initialization is successful, the return value will be `SDK_SUCCESS`. Otherwise, an error value will be returned.
 
 ### Face Detection and Liveness Detection
 
-The FaceSDK offers a single function for detecting face and liveness detection, which can be used as follows:
+The `FaceSDK` offers a single function for detecting face and liveness detection, which can be used as follows:
 ```swift
 let faceBoxes = FaceSDK.faceDetection(image)
 ```
 
 https://github.com/kby-ai/FaceLivenessDetection-iOS/blob/ff6722b7946797f0c9f2314f88eb43a96ac59f57/FaceLivenessDetection/CameraViewController.swift#L62-L78
 
-This function takes a single parameter, which is a UIImage object. 
-The return value of the function is a list of FaceBox objects. 
-Each FaceBox object contains the detected face rectangle, liveness score, and facial angles such as yaw, roll, and pitch.
+This function takes a single parameter, which is a `UIImage` object. 
+The return value of the function is a list of `FaceBox` objects. 
+Each `FaceBox` object contains the detected face rectangle, liveness score, and facial angles such as `yaw`, `roll`, and `pitch`.
 
