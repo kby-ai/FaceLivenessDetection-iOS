@@ -133,4 +133,3 @@ This function takes a single parameter, which is a `UIImage` object.
 The return value of the function is a list of `FaceBox` objects. 
 Each `FaceBox` object contains the detected face rectangle, liveness score, and facial angles such as `yaw`, `roll`, and `pitch`.
 
-[![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fkby-ai%2FFaceLivenessDetection-iOS&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fkby-ai%2FFaceLivenessDetection-iOS)
